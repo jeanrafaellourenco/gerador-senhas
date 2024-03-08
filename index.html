@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senhas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h3>Gerador de Senhas</h3>
+    <div class="row">
+      <div class="col s12">
+        <div class="input-field">
+          <input type="text" id="senha" readonly>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <button class="waves-effect waves-light btn" id="gerar-senha">Gerar Senha</button>
+        <button class="waves-effect waves-light btn" id="copiar-senha">Copiar Senha</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Espaço para anúncios personalizados -->
+  <div class="row center">
+    <div class="col s12">
+      <div class="ad">
+      </div>
+    </div>
+  </div>
+
+    <footer>
+        <p>&copy; <span id="ano-atual"></span> jeanrafaellourenco. Alguns direitos reservados.</p>
+    </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
